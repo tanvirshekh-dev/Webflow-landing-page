@@ -32,6 +32,12 @@
   font-weight: bolder;
   font-style: normal;
 }
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
 
 /* shared styles  */
 .max-width {
@@ -45,7 +51,9 @@
 .primary-color {
   color: rgba(78, 71, 255, 1);
 }
-
+.text-center{
+  text-align: center;
+}
 .btn-primary {
   padding: 12px 35px;
   border: none;
@@ -103,3 +111,30 @@
 .action-img-area img{
   border-radius: 45px;
 }
+
+/* productive section styles */
+.productive-container{
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 50px 0px;
+  border-radius: 24px;
+  margin-bottom: 135px;
+}
+.productive-heading{
+  font-size: 38px;
+  color: rgba(37, 36, 50, 1);
+  padding-bottom: 40px;
+}
+.productive-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.productive-title{
+  font-size: 80px;
+  color: rgba(78, 71, 255, 1);
+}
+.productive-description{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
