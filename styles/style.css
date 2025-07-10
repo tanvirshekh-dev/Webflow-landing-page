@@ -38,6 +38,10 @@
   max-width: 1180px;
   margin: 0 auto;
 }
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
 .primary-color {
   color: rgba(78, 71, 255, 1);
 }
@@ -79,4 +83,23 @@
 }
 .header-btn{
     margin-bottom: 140px;
+}
+/* action part styles */
+.action-container{
+  align-items: center;
+  padding: 110px 0px;
+}
+.action-heading{
+  font-size: 42px;
+  color: rgba(37, 36, 50, 1);
+}
+.action-description{
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  max-width: 510px;
+  padding: 20px 0px;
+  line-height: 30px;
+}
+.action-img-area img{
+  border-radius: 45px;
 }
