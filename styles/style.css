@@ -218,4 +218,33 @@ body{
   margin: 10px 0px 18px 0px;
   border-radius: 10px;
 }
-
+/* footer section part styles */
+.footer-container{
+  background-color: rgb(255, 255, 255);
+}
+.footer-heading{
+  padding: 100px 0px 10px 0px;
+  font-size: 100px;
+  color: #4E47FF;
+}
+.footer-description{
+  color: #8987A1;
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 580px;
+  margin: 0 auto;
+}
+.footer-items li{
+  list-style: none;
+}
+.footer-items a{
+  text-decoration: none;
+  color: #8987A1;
+}
+.footer-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 20px 0px 100px 0px;
+}
