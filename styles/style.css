@@ -28,6 +28,12 @@ body{
   font-weight: 400;
   font-style: normal;
 }
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 .inter-black {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -62,6 +68,7 @@ body{
   border-radius: 10px;
   color: white;
   background-color: rgba(78, 71, 255, 1);
+  cursor: pointer;
 }
 .btn-primary:hover {
   background-color: lightcoral;
@@ -175,5 +182,40 @@ body{
 }
 .user-info-description{
   color: #B3B3B3;
+}
+/* news latter part styles */
+.news-latter-container{
+  display: flex;
+  align-items: center;
+  gap: 115px;
+}
+.news-latter-title{
+  font-size: 97px;
+  color: rgba(0, 0, 0, 1);
+  max-width: 520px;
+  margin: 0 auto;
+}
+.news-latter-form label{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}
+.news-latter-form{
+  width: 40%;
+}
+.news-latter-btn{
+  width: 100%;
+  margin-bottom: 70px;
+}
+.news-latter-form input[type="email"], input[type="text"], textarea{
+  padding: 20px 32px;
+  border: none;
+  width: 100%;
+  border: none;
+  margin: 10px 0px 18px 0px;
+  border-radius: 10px;
 }
 
